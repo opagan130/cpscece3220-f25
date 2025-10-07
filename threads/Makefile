@@ -1,7 +1,7 @@
 
 CC=clang
 CFLAGS=-Wall -g
-BINS=pthreadex pthreadex2
+BINS=pthreadex pthreadex2 conditionex asyncio readwritelockex sem
 
 
 all: $(BINS)
